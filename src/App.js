@@ -75,7 +75,7 @@ export default function App() {
   }
   const totalpoints = state.questions.reduce((pre, crr) => pre + crr.points, 0);
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://json.extendsclass.com/bin/170e25009d57")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "reciveData", payload: data }))
       .catch((err) => dispatch({ type: "error" }));
