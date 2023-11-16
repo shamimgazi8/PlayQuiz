@@ -6,7 +6,7 @@ import Nextbutton from "./Nextbutton";
 import ProgressBarmain from "./ProgressBar";
 import FinishedScren from "./FinishedScren";
 import Timer from "./Timer";
-const SEC_PER_QS = 30;
+const SEC_PER_QS = 10;
 const initstate = {
   questions: [],
   status: "Processing",
